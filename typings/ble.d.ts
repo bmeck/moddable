@@ -69,11 +69,11 @@ declare module "bleclient" {
      * @url https://github.com/Moddable-OpenSource/moddable/blob/public/documentation/network/ble/ble.md#startscanningparams
      */
     startScanning(params?: {
-      active: boolean,
-      duplicates: boolean,
-      filterPolicy: gapScanFilterPolicies,
-      interval: number,
-      window: number,
+      active?: boolean,
+      duplicates?: boolean,
+      filterPolicy?: gapScanFilterPolicies,
+      interval?: number,
+      window?: number,
     }): void;
 
     /**
